@@ -122,7 +122,7 @@ def predict_gan():
         # st.image(os.path.join(result_subdir, 'pre-trained_%03d.png'%i))
         st.header('IG Post #' + str(i))
         im = Image.open(os.path.join(result_subdir, 'pre-trained_%03d.png'%i))
-        st.image(im.resize((1024, 1024), Image.ANTIALIAS)) # with gpt2, the images are generated too slow
+        st.image(im.resize((512, 512), Image.ANTIALIAS)) # with gpt2, the images are generated too slow
         # call gpt2-simple on a pre-trained weight
         gen_file = os.path.join(result_subdir,'gpt2_gentext_{:%Y%m%d_%H%M%S}.txt'.format(datetime.utcnow()))
         
