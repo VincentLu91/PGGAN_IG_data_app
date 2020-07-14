@@ -1,5 +1,7 @@
 # PGGAN_IG_data_app
 
+Update: since having uploaded the repository, the app does not work again after cloning the code, as the app now complains about an incorrect number of weights or layers used, even though the code and weight files are untouched.
+
 Instagram is the biggest platform for building a brand. Over 90 million Instagram posts are uploaded per day. Millions of influencers are on the platform to sell products and promote brands. There are tremendous opportunities for businesses to build audiences and customer base. However, bootstrapped business owners with limited time or money do not have the resources to grow audiences the way their fledgling competitors do. Some founders are starting out with a side hustle. Others have a small capacity to allocate resources to other necessary functions.
 
 Due to the frustrations of growing a brand in the ultra competitive content marketing space, I decided to build an Instagram content generator to help businesses grow audiences at scale, regardless of budget or limited amount of time spent at marketing.
