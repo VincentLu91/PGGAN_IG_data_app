@@ -1,12 +1,14 @@
-FROM python:3
+FROM python:3.6
 
-#WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
-CMD [ "pip3" ,"install", "--upgrade" "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.4.0-py3-none-any.whl"]
+COPY requirements.txt ./requirements.txt
 
-#COPY . .
 
-#CMD [ "python", "./your-daemon-or-script.py" ]
-# run a container or just put a command for python train.py!? need some clarity
+RUN pip install -r requirements.txt
+
+EXPOSE 8502
+
+COPY . /app
+
+CMD ["streamlit", "run", "PGGAN_IG_data_app.py"]
