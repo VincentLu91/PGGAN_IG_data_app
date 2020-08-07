@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 import time
 import glob
 from model import *
@@ -137,3 +138,9 @@ if __name__ == '__main__':
     st.write('The following are a list of 5 Instagram images along with their captions, all generated for mood boarding')
     
     predict_gan()
+    
+    try:
+        shutil.rmtree('pre-trained_result/000-celeba')
+    except OSError as e:
+        print ("Error with filename: %s." % (e.filename))
+        print ("Error message: %s." % (e.strerror))
