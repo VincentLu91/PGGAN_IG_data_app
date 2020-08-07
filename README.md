@@ -18,7 +18,7 @@ You can also find the data app demonstration in the following YouTube video: htt
 
 ## How to access the data app
 
-### You can also set up a Docker container to run the application
+### You can set up a Docker container to run the application
 
 After cloning the repo, download the `tree_run1.zip`: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
 
