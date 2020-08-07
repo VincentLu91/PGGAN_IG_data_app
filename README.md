@@ -62,6 +62,10 @@ You should now see the data application run, generating 5 Instagram posts:
 
 ![martymcfly](https://user-images.githubusercontent.com/3411100/89596643-c2b12400-d825-11ea-979b-92649fb4f340.png)
 
+This will download two directories:
+
+- a `124M` folder that is found in the `models` folder. This is the 124M GPT-2 pre-trained model that will be used to generate captions.
+- a `00x-celeba` folder that is found in the `pre-trained_result` folder that includes the image files generated
 
 ## Pre-trained models used.
 
