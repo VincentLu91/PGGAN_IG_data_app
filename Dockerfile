@@ -7,6 +7,12 @@ COPY requirements.txt ./requirements.txt
 
 RUN pip install -r requirements.txt
 
+RUN pip install streamlit
+
+RUN pip install tensorflow==1.13.1
+
+RUN pip install gpt_2_simple
+
 EXPOSE 8502
 
 COPY . /app
