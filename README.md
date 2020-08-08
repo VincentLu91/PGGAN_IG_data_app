@@ -6,6 +6,8 @@ The best way to view the application in action is to watch the YouTube demo as a
 
 Update (August 6 2020): the data application now finally works, but the checkpoint files are too large to upload to the repository. Also, the git-LFS service has exhausted its quota and it is not possible to upload them to the repository. To circumvent this, I created a google downloadable link to the checkpoint files: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
 
+Update (August 7 2020): the application is now dockerized and is available in docker hub.
+
 ## About The Project
 
 Instagram is the biggest platform for building a brand. Over 90 million Instagram posts are uploaded per day. Millions of influencers are on the platform to sell products and promote brands. There are tremendous opportunities for businesses to build audiences and customer base. However, bootstrapped business owners with limited time or money do not have the resources to grow audiences the way their fledgling competitors do. Some founders are starting out with a side hustle. Others have a small capacity to allocate resources to other necessary functions.
@@ -20,18 +22,10 @@ You can also find the data app demonstration in the following YouTube video: htt
 
 ### You can set up a Docker container to run the application
 
-After cloning the repo, download the `tree_run1.zip`: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
+You can pull the docker image from the Docker Hub repository:
+https://hub.docker.com/r/vincelu299/pggan_ig_data_app_stapp
 
-Once downloaded, unzip `tree_run1.zip` and place the `tree_run1` folder in the `checkpoint` folder in the root directory
-![martymcfly](https://user-images.githubusercontent.com/3411100/89595437-803a1800-d822-11ea-851e-7a6b77641cf7.png)
-
-Cd to the repo and run:
-
-```
-docker build -t pggan_ig_data_app_stapp:v1 .
-```
-
-Then:
+Then in the folder where you pulled the image, run:
 ```
 docker run -p 8501:8501 pggan_ig_data_app_stapp:v1
 ```
@@ -55,7 +49,8 @@ At this point the environment should be set up with required libraries to run th
 
 Download the `tree_run1.zip`: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
 
-Once downloaded, unzip `tree_run1.zip` and place the `tree_run1` folder in the `checkpoint` folder in the root directory.
+Once downloaded, unzip `tree_run1.zip` and place the `tree_run1` folder in the `checkpoint` folder in the root directory:
+![martymcfly](https://user-images.githubusercontent.com/3411100/89595437-803a1800-d822-11ea-851e-7a6b77641cf7.png)
 
 If you don't have streamlit installed on your machine, run:
 
