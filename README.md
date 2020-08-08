@@ -37,7 +37,7 @@ You should be able to view the containerized application.
 
 ### Alternatively, you can access the application in development environment
 
-Dependencies are included in requirements.txt. To install the virtual environment, run the following:
+Git clone the repo. Dependencies are included in requirements.txt. To install the virtual environment, run the following:
 
 ```
 python3 -m venv env # or python -m venv env
