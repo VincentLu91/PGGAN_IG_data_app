@@ -1,13 +1,5 @@
 # PGGAN_IG_data_app
 
-Update (July 15 2020): since having uploaded the repository, the app does not work again after cloning the code, as the app now complains about an incorrect number of weights or layers used, even though the code and weight files are untouched.
-
-The best way to view the application in action is to watch the YouTube demo as alluded to below.
-
-Update (August 6 2020): the data application now finally works, but the checkpoint files are too large to upload to the repository. Also, the git-LFS service has exhausted its quota and it is not possible to upload them to the repository. To circumvent this, I created a google downloadable link to the checkpoint files: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
-
-Update (August 7 2020): the application is now containerized and is available in docker hub.
-
 ## About The Project
 
 Instagram is the biggest platform for building a brand. Over 90 million Instagram posts are uploaded per day. Millions of influencers are on the platform to sell products and promote brands. There are tremendous opportunities for businesses to build audiences and customer base. However, bootstrapped business owners with limited time or money do not have the resources to grow audiences the way their fledgling competitors do. Some founders are starting out with a side hustle. Others have a small capacity to allocate resources to other necessary functions.
