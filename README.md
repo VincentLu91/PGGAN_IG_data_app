@@ -6,7 +6,7 @@ The best way to view the application in action is to watch the YouTube demo as a
 
 Update (August 6 2020): the data application now finally works, but the checkpoint files are too large to upload to the repository. Also, the git-LFS service has exhausted its quota and it is not possible to upload them to the repository. To circumvent this, I created a google downloadable link to the checkpoint files: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
 
-Update (August 7 2020): the application is now dockerized and is available in docker hub.
+Update (August 7 2020): the application is now containerized and is available in docker hub.
 
 ## About The Project
 
