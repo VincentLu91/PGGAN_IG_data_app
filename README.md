@@ -33,8 +33,6 @@ Once you started the application (container or your local environment), you shou
 
 ![martymcfly](https://user-images.githubusercontent.com/3411100/89596643-c2b12400-d825-11ea-979b-92649fb4f340.png)
 
-If you use a local environment, you will notice that a `124M` folder is downloaded into the `models` folder. This is the 124M GPT-2 pre-trained model that will be used to generate captions.
-
 ## Pre-trained models used.
 
 PGGAN: https://github.com/MSC-BUAA/Keras-progressive_growing_of_gans
