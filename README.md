@@ -27,46 +27,6 @@ You may see the suggested Network and External URLs. Ignore those - go to the br
 
 You should be able to view the containerized application.
 
-### Alternatively, you can access the application in development environment
-
-Git clone the repo. Dependencies are included in requirements.txt. To install the virtual environment, run the following:
-
-```
-python3 -m venv env # or python -m venv env
-source env/bin/activate
-pip3 install -r requirements.txt # or pip install -r requirements.txt
-```
-
-At this point the environment should be set up with required libraries to run the application. 
-
-Download the `tree_run1.zip`: https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view
-
-Once downloaded, unzip `tree_run1.zip` and place the `tree_run1` folder in the `checkpoint` folder in the root directory:
-![martymcfly](https://user-images.githubusercontent.com/3411100/89595437-803a1800-d822-11ea-851e-7a6b77641cf7.png)
-
-If you don't have streamlit installed on your machine, run:
-
-```
-pip install streamlit
-```
-
-Then to run the app, cd to the project folder and enter:
-
-```
-streamlit run PGGAN_IG_data_app.py
-```
-
-In the terminal, you should see the following right after the command:
-
-```
-  You can now view your Streamlit app in your browser.
-
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.2.28:8501
-```
-
-This will load up the data app and open a new browser tab. If the app does not open in the browser, open a new tab and enter the URL from your run.
-
 ## How to use the data app
 
 Once you started the application (container or your local environment), you should now see the data application run, generating 5 Instagram posts:
