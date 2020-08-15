@@ -37,7 +37,11 @@ source env/bin/activate
 pip3 install -r requirements.txt # or pip install -r requirements.txt
 ```
 
-At this point the environment should be set up with required libraries to run the application. To run the app, enter:
+At this point the environment should be set up with required libraries to run the application. 
+
+Make sure you download the checkpoint folder [tree_run1](https://drive.google.com/file/d/1vFYnH91yQeEeRASPhOAEnjccHGE48Ywl/view) and place it within the `checkpoint` directory.
+
+To run the app, enter:
 
 ```
 streamlit run PGGAN_IG_data_app.py
