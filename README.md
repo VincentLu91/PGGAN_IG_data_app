@@ -27,6 +27,23 @@ You may see the suggested Network and External URLs. Ignore those - go to the br
 
 You should be able to view the containerized application.
 
+### Alternatively, you can access the application in development environment
+
+Libraries and their versions are included in requirements.txt. To install the virtual environment, run the following:
+
+```
+python3 -m venv env # or python -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt # or pip install -r requirements.txt
+```
+
+At this point the environment should be set up with required libraries to run the application. To run the app, enter:
+
+```
+streamlit run PGGAN_IG_data_app.py
+```
+Then in the browser, enter ```localhost:8501/```.
+
 ## How to use the data app
 
 Once you started the application (container or your local environment), you should now see the data application run, generating 5 Instagram posts:
