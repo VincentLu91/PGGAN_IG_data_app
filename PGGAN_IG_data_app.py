@@ -137,10 +137,10 @@ if __name__ == '__main__':
     st.title('Instagram Content Generator')
     st.write('The following are a list of 5 Instagram images along with their captions, all generated for mood boarding')
     
+    for path in glob.glob("pre-trained_result/*"):
+        shutil.rmtree(path)
+    
     predict_gan()
     
-    try:
-        shutil.rmtree('pre-trained_result/000-celeba')
-    except OSError as e:
-        print ("Error with filename: %s." % (e.filename))
-        print ("Error message: %s." % (e.strerror))
+    for path in glob.glob("pre-trained_result/*"):
+        shutil.rmtree(path)
